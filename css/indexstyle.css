@@ -11,34 +11,71 @@ body {
 }
 
 .topText {
-    color: #eff0f4;
+    color: #dcdde2;
     padding-top: 20px;
     font-size: 60px;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.topText:hover {
+    color: white;
 }
 
 .clipboardLinkButton {
-    overflow: hidden;
     width: 150px;
     height: 150px;
-    border-radius: 30px;
-    border: #eff0f4 solid 4px;
-    position: center center;
-    padding: 5px;
-    transition: .1s cubic-bezier(0.075, 0.82, 0.165, 1);
-    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.4), 0 16px 30px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    border: #dcdde2 solid 3px;
+    position: absolute;
+    padding: 4px;
+    transition: .25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translate(-50%, -50%);
 }
 .clipboardLinkButton:hover {
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 160px;
+}
+.clipboardLinkButton:active {
+    width: 120px;
+    height: 120px;
+}
+.linkButton {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border: transparent solid 0px;
+    padding: 90px;
 }
 
 .seperateLine {
-    padding: 20px;
+    padding: 40px;
 }
 .seperateLineBorder {
-    border: #eff0f4 solid 2px;
+    border: #dcdde2 solid 2px;
 }
 
-.copyButtons {
-    
+.bigText {
+    color: #dcdde2;
+    font-size: 50px;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.bigText:hover {
+    color: white;
+}
+
+.normalText {
+    color: #dcdde2;
+    font-size: 25px;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.normalText:hover {
+    color: white;
+}
+
+.urlButton {
+    color: greenyellow;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    font-size: 25px;
+}
+.urlButton:hover {
+    color: rgb(228, 255, 187);
 }
