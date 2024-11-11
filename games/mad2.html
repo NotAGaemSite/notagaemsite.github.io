@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html>
     <body style="margin: 0px; overflow: hidden;">
         <div id='ruffle'></div>
-        <script src='ruffle/ruffle.js'></script>
+        <script src='../ruffle/ruffle.js'></script>
         <script>
 var swfobject = {};
 
@@ -17,7 +18,7 @@ swfobject.embedSWF = function(url, cont, width, height){
     player.load({ url: url });
 }
 
-swfobject.embedSWF('flashfiles/mad2.swf', 'ruffle', 100, 100);
+swfobject.embedSWF('../flashfiles/mad2.swf', 'ruffle', 100, 100);
         </script>
     </body>
 </html>
