@@ -1,5 +1,5 @@
 async function copyLinkToClipboard(i) {
-    const link = "https://notagaemsite.github.io/games/" + i + ".html/";
+    const link = "https://notagaemsite.github.io/games/" + i + ".html";
 
     try {
         await navigator.clipboard.writeText(link);
