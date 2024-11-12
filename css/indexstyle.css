@@ -79,3 +79,20 @@ body {
 .urlButton:hover {
     color: rgb(228, 255, 187);
 }
+
+.rightIcon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translate(0%, -25%);
+    border-radius: 10px;
+    border: #dcdde2 solid 2px;
+    transition: 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 0;
+}
+.rightIcon:hover {
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    border-radius: 20px;
+}
