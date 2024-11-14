@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/50.2">
+    <id>jp.ne.hap.mom</id>
+    <versionNumber>1.0.16</versionNumber>
+    <filename>mom</filename>
+    <description/>
+    <name>
+        <text xml:lang="ja">ゲーム隠された</text>
+        <text xml:lang="en">Hidden game</text>
+        <text xml:lang="it">Nascosto gioco</text>
+        <text xml:lang="es">Oculto juego</text>
+        <text xml:lang="pt">Escondido jogo</text>
+        <text xml:lang="fr">Caché jeu</text>
+        <text xml:lang="de">Versteckt Spiel</text>
+        <text xml:lang="nl">Verborgen spel</text>
+        <text xml:lang="ru">Спрятанная игра</text>
+        <text xml:lang="ko">게임을 숨겼다</text>
+        <text xml:lang="zh">遊戲藏起來了</text>
+        <text xml:lang="zh-TW">游戏藏起来了</text>
+        <text xml:lang="zh-CN">遊戲藏起來了</text>
+        <text xml:lang="zh_Hant">游戏藏起来了</text>
+        <text xml:lang="zh_Hans">遊戲藏起來了</text>
+    </name>
+    <copyright/>
+    <initialWindow>
+        <content>mom.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>gpu</renderMode>
+        <autoOrients>false</autoOrients>
+    </initialWindow>
+  <icon>
+    <image114x114>icon/icon_114.png</image114x114>
+    <image29x29>icon/icon_29.png</image29x29>
+    <image57x57>icon/icon_57.png</image57x57>
+    <image512x512>icon/icon_512.png</image512x512>
+    <image48x48>icon/icon_48.png</image48x48>
+    <image72x72>icon/icon_72.png</image72x72>
+    <image50x50>icon/icon_50.png</image50x50>
+    <image58x58>icon/icon_58.png</image58x58>
+    <image100x100>icon/icon_100.png</image100x100>
+    <image144x144>icon/icon_144.png</image144x144>
+    <image1024x1024>icon/icon_1024.png</image1024x1024>
+    <image76x76>icon/icon_76.png</image76x76>
+    <image120x120>icon/icon_120.png</image120x120>
+    <image152x152>icon/icon_152.png</image152x152>
+    <image80x80>icon/icon_80.png</image80x80>
+    <image40x40>icon/icon_40.png</image40x40>
+    <image36x36>icon/icon_36.png</image36x36>
+    <image96x96>icon/icon_96.png</image96x96>
+    <image167x167>icon/icon_167.png</image167x167>
+    <image87x87>icon/icon_87.png</image87x87>
+    <image75x75>icon/icon_75.png</image75x75>
+    <image60x60>icon/icon_60.png</image60x60>
+    <image180x180>icon/icon_180.png</image180x180>
+    <image192x192>icon/icon_192.png</image192x192>
+  </icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    
+    
+
+  <iPhone>
+    <InfoAdditions><![CDATA[
+  <key>UIDeviceFamily</key>
+  <array>
+    <string>1</string>
+    <string>2</string>
+  </array>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Access to photo library is required to save images.</string>
+  <key>NSContactsUsageDescription</key>
+  <string>Access to contacts is required to assign images.</string>
+  <key>NSPhotoLibraryAddUsageDescription</key>
+  <string>Access to photo library is required to save images.</string>
+  <key>UIPrerenderedIcon</key>
+  <true/>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>hap-mom</string>
+      </array>
+      <key>CFBundleURLName</key>
+      <string>jp.ne.hap.mom</string>
+    </dict>
+  </array>
+  <key>MinimumOSVersion</key>
+  <string>9.0</string>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSAllowsArbitraryLoadsForMedia</key>
+    <true/>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+  </dict>
+  <key>GADApplicationIdentifier</key>
+  <string>ca-app-pub-3919289377696221~7388668231</string>
+  <key>NSUserTrackingUsageDescription</key>
+  <string>This identifier will be used to deliver personalized ads to you.</string>
+  <key>SKAdNetworkItems</key>
+  <array>
+    <dict>
+      <key>SKAdNetworkIdentifier</key>
+      <string>cstr6suwn9.skadnetwork</string>
+    </dict>
+  </array>
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+    <Entitlements>
+        <![CDATA[
+        ]]>
+    </Entitlements>
+</iPhone>
+    
+    
+    
+    
+  <android>
+	  <manifestAdditions><![CDATA[<manifest android:installLocation="auto" >
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="33"/>
+	<!-- Include required permissions for Google Mobile Ads to run -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<!-- Android package visibility setting -->
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+
+	<queries>
+	<!-- For browser content -->
+		<intent>
+			<action android:name="android.intent.action.VIEW"/>
+			<category android:name="android.intent.category.BROWSABLE"/>
+			<data android:scheme="https"/>
+		</intent>
+		<!-- End of browser content -->
+		<!-- For CustomTabsService -->
+		<intent>
+			<action android:name="android.support.customtabs.action.CustomTabsService"/>
+		</intent>
+	<!-- End of CustomTabsService -->
+	</queries>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove"/> -->
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+
+ <queries>
+        <!-- query for checking email apps -->
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="message/rfc822" />
+        </intent>
+    </queries>
+
+
+
+	<application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:enabled="true" android:roundIcon="@mipmap/icon_round">
+		<meta-data android:name="android.max_aspect" android:value="2.5"/>
+		<meta-data android:name="android.notch_support" android:value="true"/>
+
+		<meta-data
+			android:name="com.google.android.gms.ads.APPLICATION_ID"
+			android:value="ca-app-pub-3919289377696221~4295601039"/>
+
+
+		<activity
+			android:name="com.google.android.gms.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+			android:exported="false"
+			android:theme="@android:style/Theme.Translucent" />
+
+		<provider
+			android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+			android:authorities="air.jp.ne.hap.mom.mobileadsinitprovider"
+			android:exported="false"
+			android:initOrder="100" />
+			
+		<provider
+            android:name="com.distriqt.extension.share.content.ShareFileProvider"
+            android:authorities="air.jp.ne.hap.mom.sharefileprovider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/distriqt_share_paths" />
+        </provider>
+        
+        
+		<!-- PERMISSIONS -->
+        <activity android:name="com.distriqt.extension.share.permissions.AuthorisationActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+
+
+		<service
+			android:name="com.google.android.gms.ads.AdService"
+			android:enabled="true"
+			android:exported="false" />
+
+		<activity
+			android:name="com.google.android.gms.common.api.GoogleApiActivity"
+			android:exported="false"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version" />
+
+		<provider
+			android:name="androidx.startup.InitializationProvider"
+			android:authorities="air.jp.ne.hap.mom.androidx-startup"
+			android:exported="false" >
+			<meta-data
+				android:name="androidx.work.WorkManagerInitializer"
+				android:value="androidx.startup" />
+		</provider>
+
+		<service
+			android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+			android:directBootAware="false"
+			android:enabled="@bool/enable_system_alarm_service_default"
+			android:exported="false" />
+		<service
+			android:name="androidx.work.impl.background.systemjob.SystemJobService"
+			android:directBootAware="false"
+			android:enabled="@bool/enable_system_job_service_default"
+			android:exported="true"
+			android:permission="android.permission.BIND_JOB_SERVICE" />
+		<service
+			android:name="androidx.work.impl.foreground.SystemForegroundService"
+			android:directBootAware="false"
+			android:enabled="@bool/enable_system_foreground_service_default"
+			android:exported="false" />
+
+		<receiver
+			android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+			android:directBootAware="false"
+			android:enabled="true"
+			android:exported="false" />
+		<receiver
+			android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+			android:directBootAware="false"
+			android:enabled="false"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+				<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+			android:directBootAware="false"
+			android:enabled="false"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="android.intent.action.BATTERY_OKAY" />
+				<action android:name="android.intent.action.BATTERY_LOW" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+			android:directBootAware="false"
+			android:enabled="false"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+				<action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+			android:directBootAware="false"
+			android:enabled="false"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+			android:directBootAware="false"
+			android:enabled="false"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.intent.action.TIME_SET" />
+				<action android:name="android.intent.action.TIMEZONE_CHANGED" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+			android:directBootAware="false"
+			android:enabled="@bool/enable_system_alarm_service_default"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+			android:directBootAware="false"
+			android:enabled="true"
+			android:exported="true"
+			android:permission="android.permission.DUMP" >
+			<intent-filter>
+				<action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+			</intent-filter>
+		</receiver>
+
+		<service
+			android:name="androidx.room.MultiInstanceInvalidationService"
+			android:directBootAware="true"
+			android:exported="false" />
+
+
+  </application>
+</manifest>
+]]></manifestAdditions>
+    <containsVideo>true</containsVideo>
+  </android>
+  
+    
+    
+    <supportedLanguages>en zh nl fr de it ja ko pt ru es</supportedLanguages>
+    
+  
+  
+  
+  
+  
+  <versionLabel/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <extensions>
+    <extensionID>com.distriqt.Adverts</extensionID>
+    <extensionID>com.distriqt.Core</extensionID>
+    <extensionID>com.distriqt.IDFA</extensionID>
+    <extensionID>com.distriqt.playservices.Ads</extensionID>
+    <extensionID>com.distriqt.playservices.Base</extensionID>
+    <extensionID>com.distriqt.Share</extensionID>
+    <extensionID>com.distriqt.SystemGestures</extensionID>
+    <extensionID>com.distriqt.playservices.AppSet</extensionID>
+    <extensionID>androidx.appcompat</extensionID>
+    <extensionID>androidx.browser</extensionID>
+    <extensionID>androidx.constraintlayout</extensionID>
+    <extensionID>androidx.core</extensionID>
+    <extensionID>androidx.room</extensionID>
+    <extensionID>androidx.vectordrawable</extensionID>
+    <extensionID>androidx.work</extensionID>
+    <extensionID>com.google.code.gson</extensionID>
+  </extensions>
+</application>

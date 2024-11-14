@@ -1,0 +1,62 @@
+<extension xmlns="http://ns.adobe.com/air/extension/24.0">
+	<id>com.distriqt.SystemGestures</id>
+	<versionNumber>2.1.46</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.systemgestures.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.systemgestures.SystemGesturesExtension</initializer>
+				<finalizer>com.distriqt.extension.systemgestures.SystemGesturesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.systemgestures.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.systemgestures.SystemGesturesExtension</initializer>
+				<finalizer>com.distriqt.extension.systemgestures.SystemGesturesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.systemgestures.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.systemgestures.SystemGesturesExtension</initializer>
+				<finalizer>com.distriqt.extension.systemgestures.SystemGesturesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.systemgestures.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.systemgestures.SystemGesturesExtension</initializer>
+				<finalizer>com.distriqt.extension.systemgestures.SystemGesturesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libSystemGestures.a</nativeLibrary>
+				<initializer>SystemGesturesExtInitializer</initializer>
+				<finalizer>SystemGesturesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libSystemGestures.a</nativeLibrary>
+				<initializer>SystemGesturesExtInitializer</initializer>
+				<finalizer>SystemGesturesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="appleTV-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libSystemGestures.a</nativeLibrary>
+				<initializer>SystemGesturesExtInitializer</initializer>
+				<finalizer>SystemGesturesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+		
+	</platforms>
+</extension>

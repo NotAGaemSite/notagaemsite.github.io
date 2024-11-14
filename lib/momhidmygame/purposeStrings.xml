@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<purposeString>
+    <iPhone>
+        <text xml:lang="ja">
+            <string key = "NSUserTrackingUsageDescription" >\n「許可」をするとあなたに合った広告になります。広告の数は変わりません。</string>
+        </text>
+    </iPhone>
+</purposeString>

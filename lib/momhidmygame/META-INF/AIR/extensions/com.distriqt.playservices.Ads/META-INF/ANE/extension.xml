@@ -1,0 +1,40 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.distriqt.playservices.Ads</id>
+	<versionNumber>21.3.0</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.ads.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.ads.AdsExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.ads.AdsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.ads.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.ads.AdsExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.ads.AdsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.ads.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.ads.AdsExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.ads.AdsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.ads.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.ads.AdsExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.ads.AdsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default">
+			<applicationDeployment />
+		</platform>
+
+	</platforms>
+</extension>
