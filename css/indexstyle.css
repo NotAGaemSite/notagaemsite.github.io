@@ -29,6 +29,7 @@ body {
     padding: 4px;
     transition: .25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: translate(-50%, -50%);
+    object-fit: cover;
 }
 .clipboardLinkButton:hover {
     width: 160px;
@@ -44,7 +45,6 @@ body {
     background-color: transparent;
     border: transparent solid 0px;
     padding: 90px;
-    object-fit: cover;
 }
 
 .seperateLine {
